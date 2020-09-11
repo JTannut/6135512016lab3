@@ -1,24 +1,27 @@
 import React from 'react';
 import './App.css';
-import CharacterCard from './CharacterCard';
+//import CharacterCard from './CharacterCard';
+import Wordcard from './WordCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <div>
-      Hello World
-      </div>
-      <div>
-     <CharacterCard value="h"/>
-    <CharacterCard value="i"/>
-      </div>
-        <a>
-          T.Tannut 6135512016
-        </a>
-      </header>
-    </div>
+    // <div>
+    // <CharacterCard value="h"/>
+    // <CharacterCard value="i"/>
+    // </div>
+    <div>
+      <Wordcard value="hello"/>
 
+    </div>
+//     <div>
+//   {
+//     Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
+//   }
+//  </div>
+
+    //<div>
+    //<WordCard value="hello"/>
+   // </div>
   );
 }
 
