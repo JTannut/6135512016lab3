@@ -1,6 +1,23 @@
-import React from 'react';
-export default function CharacterCard(key) {
- return (
- <div className="card">{key.value}</div>
- )
+//import React from 'react';
+import React, { useState } from 'react';
+
+//export default function CharacterCard(key) {
+// return (
+ //<div className="card">{key.value}</div>
+ //)
+//}
+
+export default function CharacterCard(props) {
+    const [active, setActive] = useState(false);
+    const activate = () => {
+        if(!active){
+        setActive(true)
+        props.activationHandler(props.value)
+        }
+    }
+    const className = `card ${active ? 'activeCard': ''}`
+    
+    return (
+    <div className={className} onClick={activate}>{props.value}</div>
+    )
 }
