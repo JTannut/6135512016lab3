@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CharacterCard from './CharacterCard';
 
 function App() {
   return (
@@ -9,12 +9,16 @@ function App() {
       <div>
       Hello World
       </div>
-        <img src={logo} className="App-logo" alt="logo" />
+      <div>
+     <CharacterCard value="h"/>
+    <CharacterCard value="i"/>
+      </div>
         <a>
           T.Tannut 6135512016
         </a>
       </header>
     </div>
+
   );
 }
 
