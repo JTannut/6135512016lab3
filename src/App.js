@@ -10,7 +10,7 @@ function App() {
     // <CharacterCard value="i"/>
     // </div>
     <div>
-      <Wordcard value="hello"/>
+      <Wordcard value="6135512016"/>
 
     </div>
 //     <div>

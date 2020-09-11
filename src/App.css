@@ -38,8 +38,8 @@
 }
 
 .activeCard {
-  color: red;
-  background: pink;
+  color: blue;
+  background: cadetblue;
  }
  
 .card {
@@ -53,8 +53,8 @@
  }
  
  .activeCard {
-  color: red;
-  background: pink;
+  color: blue;
+  background: cadetblue;
  }
  
  
